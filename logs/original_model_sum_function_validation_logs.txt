@@ -1,0 +1,36 @@
+Trying to load the CLIP model
+CLIP model loaded successfully
+Target pad preprocess pipeline is used
+/usr/local/lib/python3.10/dist-packages/torchvision/transforms/transforms.py:332: UserWarning: Argument interpolation should be of type InterpolationMode instead of int. Please, use InterpolationMode enum.
+  warnings.warn(
+Be careful, you are using the element-wise sum as combining_function but you have also passed a path to a trained Combiner. Such Combiner will not be used
+FashionIQ val - ['shirt'] dataset in classic mode initialized
+extracting fashionIQ ['shirt'] - val index features
+100% 199/199 [01:15<00:00,  2.64it/s]
+FashionIQ val - ['shirt'] dataset in relative mode initialized
+Compute FashionIQ ['shirt'] validation predictions
+100% 64/64 [00:07<00:00,  9.00it/s]
+Compute FashionIQ ['shirt'] validation metrics
+FashionIQ val - ['dress'] dataset in classic mode initialized
+extracting fashionIQ ['dress'] - val index features
+100% 120/120 [00:46<00:00,  2.56it/s]
+FashionIQ val - ['dress'] dataset in relative mode initialized
+Compute FashionIQ ['dress'] validation predictions
+100% 64/64 [00:07<00:00,  8.60it/s]
+Compute FashionIQ ['dress'] validation metrics
+FashionIQ val - ['toptee'] dataset in classic mode initialized
+extracting fashionIQ ['toptee'] - val index features
+100% 168/168 [01:07<00:00,  2.48it/s]
+FashionIQ val - ['toptee'] dataset in relative mode initialized
+Compute FashionIQ ['toptee'] validation predictions
+100% 62/62 [00:07<00:00,  8.42it/s]
+Compute FashionIQ ['toptee'] validation metrics
+
+shirt_recallat10 = 41.46221876144409
+shirt_recallat50 = 63.788026571273804
+dress_recallat10 = 32.32523500919342
+dress_recallat50 = 56.717896461486816
+toptee_recallat10 = 43.09026002883911
+toptee_recallat50 = 67.56756901741028
+average recall10 = 38.959237933158875
+average recall50 = 62.69116401672363

@@ -1,0 +1,25 @@
+{
+    "batch_size": 4096,
+    "clip_bs": 32,
+    "clip_model_name": "RN50x4",
+    "clip_model_path": "fiq_clip_RN50x4_fullft.pt",
+    "combiner_lr": 2e-05,
+    "hidden_dim": 5120,
+    "num_epochs": 1,
+    "projection_dim": 2560,
+    "save_best": true,
+    "save_training": true,
+    "target_ratio": 1.25,
+    "train_dress_types": [
+        "dress",
+        "toptee",
+        "shirt"
+    ],
+    "transform": "targetpad",
+    "val_dress_types": [
+        "dress",
+        "toptee",
+        "shirt"
+    ],
+    "validation_frequency": 1
+}
