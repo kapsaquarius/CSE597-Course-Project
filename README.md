@@ -72,6 +72,7 @@ from changed_combiner import Combiner
 
 The changed_combiner.py file is the newly proposed combiner module with a few architecture changes.
 
+```python
 python src/combiner_train.py \
   --dataset FashionIQ \
   --projection-dim 1280 \
@@ -87,8 +88,6 @@ python src/combiner_train.py \
   --save-best \
   --target-ratio 1.25 \
   --validation-frequency 1
-
-
 ```
 
 ### Run Inference
