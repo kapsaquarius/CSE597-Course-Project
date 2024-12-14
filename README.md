@@ -1,6 +1,6 @@
 # Replication of the paper - Composed Image Retrieval using Contrastive Learning and Task-oriented CLIP-based Features
 
-This repository is a revamped implementation of the original [paper](https://arxiv.org/abs/2308.11485)."
+This repository is a revamped implementation of the original [paper](https://arxiv.org/abs/2308.11485)
 Its original code can be found [here](https://github.com/ABaldrati/CLIP4Cir)
 
 ## Clone the repo and install packages
